@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.3",
+    "lodash.merge": "^4.6.0",
     "react": "^15.1.0",
     "react-dom": "^15.3.2"
   },
