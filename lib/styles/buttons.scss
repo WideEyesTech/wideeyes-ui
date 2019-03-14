@@ -18,7 +18,8 @@ $light: 5%;
   cursor: pointer;
   line-height: 1;
   height: auto;
-  border: none;
+  border: 1px solid #000;
+  
 
   &:focus {
     outline: none;
@@ -38,28 +39,28 @@ $light: 5%;
     opacity: .5;
   }
   &.btn-primary {
-    color: $white;
+    color: $black;
     background: $accent-color;
 
     &:hover {
-      background: $accent-dark-color;
+      background: $white;
     }
 
     &.btn-outline {
       background: transparent;
       color: $accent-color;
       &:hover {
-        color: $white;
-        background: $accent-color;
+        color: $black;
+        background: $white;
       }
     }
   }
   &.btn-success {
-    color: $white;
+    color: $black;
     background: $success-color;
 
     &:hover {
-      background: $success-dark-color;
+      background: $white;
     }
 
     &.btn-outline {
@@ -67,7 +68,7 @@ $light: 5%;
       color: $success-color;
       &:hover {
         color: $white;
-        background: $success-color;
+        background: $white;
       }
     }
   }
@@ -89,11 +90,11 @@ $light: 5%;
     }
   }
   &.btn-danger {
-    color: $white;
+    color: $black;
     background: $danger-color;
 
     &:hover {
-      background: $danger-dark-color;
+      background: $white;
     }
 
     &.btn-outline {
@@ -122,7 +123,7 @@ $light: 5%;
   }
 
   &.btn-default {
-    color: $white;
+    color: $black;
 
     &:hover {
     }
